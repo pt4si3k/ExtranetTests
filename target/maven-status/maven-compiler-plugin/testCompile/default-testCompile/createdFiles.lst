@@ -1,1 +1,8 @@
-tests\LoginStudent\LoginTests.class
+tests\StudyProgramModule\ShowOnPage_TS_PS_004.class
+pages\BasePage.class
+pages\StudyModule.class
+tests\LoginStudent\BaseTest.class
+tests\StudyProgramModule\CourseInformation_TS_PS_002.class
+pages\LoginPageStudent.class
+tests\StudyProgramModule\Pagination_TS_PS_003.class
+pages\StudyProgramModule.class
