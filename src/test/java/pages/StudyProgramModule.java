@@ -15,15 +15,15 @@ public class StudyProgramModule {
     @FindBy(xpath = "//*[@id=\"app\"]/div[2]")
     public WebElement studyProgramButton;
 
-    @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody/tr[1]/td[1]/button")
+    @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/table/tbody/tr[1]/td[1]/button")
     public WebElement clickCourseButton;
     @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody/tr[1]/td[1]/button")
     public WebElement clickCourse2Button;
-    @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody/tr[2]")
+    @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[2]/table")
     public WebElement semesterInformationButton;
     @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[3]/div/div/div")
     public WebElement clickNumberButton;
-    @FindBy(xpath = ("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody/tr[4]/td[1]/button"))
+    @FindBy(xpath = ("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/table/tbody/tr[3]/td[1]/button"))
     public WebElement anotherCourseButton;
     @FindBy(xpath = "//*[@id=\"list-item-130-0\"]")
     public WebElement showTenOnPageButton;
@@ -31,9 +31,9 @@ public class StudyProgramModule {
     public WebElement showTwentyFiveOnPageButton;
     @FindBy(xpath = ("//*[@id=\"list-item-130-2\"]"))
     public WebElement showFiftyOnPageButton;
-    @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody/tr[1]")
+    @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/table/tbody/tr[1]/td[1]/button")
     public WebElement informationCourseRollDownButton;
-    @FindBy (xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody/tr[4]")
+    @FindBy (xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/table/tbody/tr[3]/td[1]/button")
     public WebElement anotherCourseInformationButton;
     @FindBy (xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody")
     public WebElement numberOfRecords25;

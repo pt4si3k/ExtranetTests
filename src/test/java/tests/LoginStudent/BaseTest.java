@@ -23,7 +23,7 @@ public class BaseTest {
     public static WebDriverWait wait;
 
     @BeforeClass
-    public static void setup () {
+    public static void setup() {
 
         System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
@@ -33,9 +33,9 @@ public class BaseTest {
         driver.get("https://portal3-dev.wsb.pl");
 
     }
-
-    @AfterClass
-    public static void teardown () {
-        driver.quit();
-    }}
-//}
+}
+//    @AfterClass
+//    public static void teardown () {
+//        driver.quit();
+//    }}
+////}
