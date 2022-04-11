@@ -20,7 +20,7 @@ public class CourseInformation_TS_PS_002 extends BaseTest {
 
     @Test
     public void step1_LoginAsStudent() {
-        loginPageStudent.loginAsStudent("pzx95020@student.wsb.poznan.pl", "extranet30");
+        loginPageStudent.loginAsStudent("pzx95008@student.wsb.poznan.pl", "extranet30");
     }
 
     @Test
