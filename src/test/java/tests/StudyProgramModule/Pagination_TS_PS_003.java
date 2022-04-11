@@ -18,7 +18,6 @@ public class Pagination_TS_PS_003 extends BaseTest {
     StudyProgramModule studyProgramModule = new StudyProgramModule(BaseTest.driver);
     LoginPageStudent loginPageStudent = new LoginPageStudent(BaseTest.driver);
 
-
     @Test
     public void step1_LoginAsStudent() {
         loginPageStudent.loginAsStudent("pzx95020@student.wsb.poznan.pl", "extranet30");
