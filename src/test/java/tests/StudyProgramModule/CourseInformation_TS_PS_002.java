@@ -12,7 +12,6 @@ import tests.LoginStudent.BaseTest;
 
 public class CourseInformation_TS_PS_002 extends BaseTest {
 
-
     StudyModule studymodule = new StudyModule(BaseTest.driver);
     StudyProgramModule studyProgramModule = new StudyProgramModule(BaseTest.driver);
     LoginPageStudent loginPageStudent = new LoginPageStudent(BaseTest.driver);
