@@ -21,7 +21,7 @@ public class BaseTest {
     public static WebDriver driver;
     public static WebDriverWait wait;
 
-    @BeforeClass
+   @BeforeClass
     public static void setup() {
 ////
         System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
