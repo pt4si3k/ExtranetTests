@@ -12,15 +12,13 @@ import tests.LoginStudent.BaseTest;
 
 public class CourseInformation_TS_PS_002 extends BaseTest {
 
-
     StudyModule studymodule = new StudyModule(BaseTest.driver);
     StudyProgramModule studyProgramModule = new StudyProgramModule(BaseTest.driver);
     LoginPageStudent loginPageStudent = new LoginPageStudent(BaseTest.driver);
 
-
     @Test
     public void step1_LoginAsStudent() {
-        loginPageStudent.loginAsStudent("pzx95020@student.wsb.poznan.pl", "extranet30");
+        loginPageStudent.loginAsStudent("pzx95008@student.wsb.poznan.pl", "extranet30");
     }
 
     @Test
