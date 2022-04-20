@@ -52,13 +52,11 @@ public class StudyProgramModule {
     @FindBy (xpath = ("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[2]/nav/ul/li[1]/button"))
     public WebElement previousPageButton;
 
-
     public StudyProgramModule(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
 
     }
-
     public void waitUntilStudyProgramVisibility() {
         WebElement element = new WebDriverWait(driver, (200))
                 .until(ExpectedConditions.elementToBeClickable(studyProgramButton));
