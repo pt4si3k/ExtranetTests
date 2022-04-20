@@ -20,4 +20,7 @@ public class StudyModule extends LoginPageStudent {
 
     public void enterStudyModule() {
         this.studyButton.click();}
+
+
+
 }
