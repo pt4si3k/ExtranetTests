@@ -71,7 +71,6 @@ public class StudyProgramModule {
         WebElement element = new WebDriverWait(driver, (200))
                 .until(ExpectedConditions.elementToBeClickable(clickCourseButton));
         element.click();
-//
 //        this.clickCourseButton.click();
     }
 
