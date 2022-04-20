@@ -55,7 +55,6 @@ public class StudyProgramModule {
     public StudyProgramModule(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
-
     }
     public void waitUntilStudyProgramVisibility() {
         WebElement element = new WebDriverWait(driver, (200))
