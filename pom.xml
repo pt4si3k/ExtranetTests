@@ -113,7 +113,7 @@
                 </os>
             </activation>
             <properties>
-                <webdriver.chrome.driver>src/test/resources/drivers/chromedriver_101_linux</webdriver.chrome.driver>
+                <webdriver.chrome.driver>src/test/resources/drivers/chromedriver_99_linux</webdriver.chrome.driver>
                 <webdriver.chrome.options>--headless --incognito</webdriver.chrome.options>
             </properties>
         </profile>
